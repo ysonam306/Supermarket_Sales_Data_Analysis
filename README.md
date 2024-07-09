@@ -1,5 +1,3 @@
-# Supermarket_Sales_Data_Analysis
-
 # Supermarket Sales Data Analysis
 ## Introduction-
 The growth of supermarkets in highly populated cities is accelerating, leading to increased market competition. This dataset represents historical sales data (Record available from January 2019 to March 2019) from a supermarket company, collected over 3 months across 3  different branches. 
@@ -36,56 +34,69 @@ The primary goal of this project is to analyze the data through Exploratory Data
 ## Customer Analysis-
 In this analysis, our goal is to uncover patterns in customer behavior by examining gender and customer type in relation to total purchases, most popular payment method. Through this exploration, we aim to gain valuable insights into how these factors influence the supermarket's success.
 Based on the existing data set, we have some questions to answer:
+
 **1. What is the gender with the most purchases?**
+
 **2. What are the spending patterns of females and males and identify the categories where they spend the most money?**
+
 **3. Is there a difference in purchases between a customer with a membership card and a normal customer?**
+
 **4. What is the most popular payment method used by customers?**
 
 
 ## Supermarket Analysis-
 Our objective is to analyze supermarket operations across various cities and branches, with the aim of enhancing performance and increasing customer satisfaction.
 We need to answer the following questions:
+
 **1. Which branch is the most profitable?**
+
 **2. Which product category generates the highest revenue?**
+
 **3. How many products are purchased by customers in each category?**
+
 **4. Which product category should the supermarket prioritize?**
+
 **5. Which city branch shows the greatest potential for expansion, and which products should be prioritized in that branch?**
 
 
 ## Steps-
 To answer the above questions, we will follow these steps-
+
 **1. Data Preparation-**  Clean the data to handle any missing or NULL values, ensuring that the dataset is ready for analysis.
+
 **2. Exploratory Data Analysis (EDA)-**  Use statistical methods and visualizations to explore the data.
+
 **3. Conclusion**
+
 **4. Recommendation**
 
 ## Code and Visualizations-
-I have created the code to answer the questions above using **MS SQL**. Check it here. 
+I have created the code to answer the questions above using **MS SQL**. [Check it here](SQLQuery supermarket_sales_kaggle_dataset.sql). 
 All the visualizations are shown in **Power BI**. Check it here.
 
 ## Analysis-
 ### A.Customer Analysis-
 **1. What is the gender with the most purchases?**
 
-![alt text](<Total Purchases By Gender.png>)<br/><br/>
+![alt text](<images/Total Purchases By Gender.png>)<br/><br/>
 From this graph, we observe that females make the majority of purchases, accounting for 51.98%, while males make up 48.02% of the purchases.
 
 
 **2. What are the spending patterns of females and males and identify the categories where they spend the most money?**
 
-![alt text](<Count of Product line by Gender.png>)<br/><br/>
+![alt text](<images/Count of Product line by Gender.png>)<br/><br/>
 From above, we can see the spending patterns of females and males across different product categories. Females spend the most money on ‘Fashion accessories’, while males spend the most money on ‘Health and beauty’. 
 
 
 **3. Is there a difference in purchases between a customer with a membership card and a normal customer?**
 
-![alt text](<Total Purchases by Customer Type.png>)<br/><br/>
+![alt text](<images/Total Purchases by Customer Type.png>)<br/><br/>
 The total purchases made by members and normal customers differ significantly. Members account for a higher percentage of total purchases at 50.85%, compared to normal customers.
 
 
 **4. What is the most popular payment method used by customers?**
 
-![alt text](<Most Popular Payment Method.png>)<br/><br/>
+![alt text](<images/Most Popular Payment Method.png>)<br/><br/>
 The most popular payment method used by customers is Ewallet which is 34.5%.
 
 
@@ -94,36 +105,37 @@ The most popular payment method used by customers is Ewallet which is 34.5%.
 ### B. Supermarket Analysis-
 **1. Which branch is the most profitable?**
 
-![alt text](<Total Sales By Branch.png>)<br/><br/>
+![alt text](<images/Total Sales By Branch.png>)<br/><br/>
 From this, we can see that Branch ‘C’ has the highest total gross income(34.24%). Therefore, Branch ‘C’ is the most profitable branch based on gross income.
 
 
 **2. Which product category generates the highest revenue?**
 
-![alt text](<Total Revenue by Product Line.png>)<br/><br/>
+![alt text](<images/Total Revenue by Product Line.png>)<br/><br/>
 From above graph, we can see that product category ‘Food and beverages’ generates the highest revenue which is 17.38%.
 
 
 **3. How many products are purchased by customers in each category?**
 
-![alt text](<Product Sale by Quantity.png>)<br/><br/>
+![alt text](<images/Product Sale by Quantity.png>)<br/><br/>
 From above, we can see the total number of products purchased across all product categories. The highest purchased product is ‘Electronic accessories’ while the lowest purchased is ‘Health and Beauty’.
 
 
 **4. Which product category should the supermarket prioritize?**
 
-![alt text](<Most Popular Product by Quantity and Total Revenue.png>)<br/><br/>
+![alt text](<images/Most Popular Product by Quantity and Total Revenue.png>)<br/><br/>
 From above, we can see that based on the total quantity sold, the graph shows that ‘Electronic accessories’ is the product category that the supermarket should prioritize, as it has the highest total quantity sold. Also, based on total gross income, ‘Food and beverages’ is the product category that the supermarket should prioritize.
 This suggests that products in the ‘Electronic accessories’ and ‘Food and beverages’ category are the most popular among customers.
 
 
 **5. Which city branch shows the greatest potential for expansion, and which products should be prioritized in that branch?**
 
-![alt text](<Branch with highest Total Revenue and Top selling Products in that Branch.png>)<br/><br/>
+![alt text](<images/Branch with highest Total Revenue and Top selling Products in that Branch.png>)<br/><br/>
 From above graph, we can see that Branch ‘C’ shows the greatest potential for expansion, with the highest total gross income. In Branch ‘C’, the products that should be prioritized are ‘Food and beverages’ as this product category have the highest total number of sold quantity.
 
 ## Conclusion-
 The key findings based on Customer analysis are as follows-
+
 **1. Spending Patterns by Gender:**
 * Females spend the most money on ‘Fashion Accessories’.
 * Males spend the most money on ‘Health and Beauty’.
@@ -138,6 +150,7 @@ The key findings based on Customer analysis are as follows-
 * The dataset covers three cities/branches, with Naypyitaw's Branch ‘C’ being the most profitable. 
 
 Key findings based on Supermarket analysis are as follows:
+
 **1. Branch Profitability:**
 * Branch ‘C’ in Naypyitaw is the most profitable, showing the highest total gross income and greatest potential for expansion.
 
