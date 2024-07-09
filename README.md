@@ -3,7 +3,7 @@
 The growth of supermarkets in highly populated cities is accelerating, leading to increased market competition. This dataset represents historical sales data (Record available from January 2019 to March 2019) from a supermarket company, collected over 3 months across 3  different branches. 
 
 ## Objectives-
-Our main objective in this project is to deeply understand the factors influencing supermarket sales. We are analyzing product performance, sales trends, and customer behavior through MS SQL. By uncovering these insights, we aim to provide decision-makers with actionable intelligence for more informed strategic decisions. The dataset was obtained from Kaggle Supermarket Sales.
+Our main objective in this project is to deeply understand the factors influencing supermarket sales. We are analyzing product performance, sales trends, and customer behavior through MS SQL. By uncovering these insights, we aim to provide decision-makers with actionable intelligence for more informed strategic decisions. The dataset was obtained from [Kaggle Supermarket Sales.](<https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales/data>)
 The primary goal of this project is to analyze the data through Exploratory Data Analysis (EDA) to examine the data using statistical measures and visualizations. For this, we will follow the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share , and Act. This approach allows us to convert raw data into practical knowledge.
 
 
@@ -71,8 +71,8 @@ To answer the above questions, we will follow these steps-
 **4. Recommendation**
 
 ## Code and Visualizations-
-I have created the code to answer the questions above using **MS SQL**. [Check it here](SQLQuery supermarket_sales_kaggle_dataset.sql). 
-All the visualizations are shown in **Power BI**. Check it here.
+I have created the code to answer the questions above using **MS SQL**. [Check it here.](<SQLQuery supermarket_sales_kaggle_dataset.sql>) 
+All the visualizations are in **Power BI**. [Check it here.](<Supermarket_Sales_data_viz.pbix>)
 
 ## Analysis-
 ### A.Customer Analysis-
